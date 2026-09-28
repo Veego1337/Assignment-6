@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		810845AD3069D63D00954F2E /* Assignment_U6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810845AC3069D63D00954F2E /* Assignment_U6App.swift */; };
+		810845B13069D63E00954F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810845B03069D63E00954F2E /* Assets.xcassets */; };
+		810845B43069D63E00954F2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810845B33069D63E00954F2E /* Preview Assets.xcassets */; };
+		810845BF3069D63E00954F2E /* Assignment_U6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810845BE3069D63E00954F2E /* Assignment_U6Tests.swift */; };
+		810845CA3069D63E00954F2E /* Assignment_U6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810845C93069D63E00954F2E /* Assignment_U6UITests.swift */; };
+		8151C5BC306B05C0004082AD /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8151C5BB306B05C0004082AD /* Object.swift */; };
+		8151C5C1306B05D8004082AD /* TheMetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8151C5C0306B05D8004082AD /* TheMetService.swift */; };
+		8151C5C9306B05F0004082AD /* TheMetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8151C5C8306B05F0004082AD /* TheMetStore.swift */; };
+		8151C5D1306B0607004082AD /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8151C5D0306B0607004082AD /* URLImage.swift */; };
+		8151C5DC306B062C004082AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8151C5DB306B062C004082AD /* ContentView.swift */; };
+		8151C5F5306B083F004082AD /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8151C5F4306B083F004082AD /* WidgetKit.framework */; };
+		8151C5F7306B083F004082AD /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8151C5F6306B083F004082AD /* SwiftUI.framework */; };
+		8151C5FD306B0840004082AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8151C5FC306B0840004082AD /* Assets.xcassets */; };
+		8151C5FF306B0840004082AD /* TheMetWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8151C5FB306B083F004082AD /* TheMetWidget.intentdefinition */; };
+		8151C600306B0840004082AD /* TheMetWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 8151C5FB306B083F004082AD /* TheMetWidget.intentdefinition */; };
+		8151C603306B0840004082AD /* TheMetWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8151C5F2306B083F004082AD /* TheMetWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8151C616306B086C004082AD /* TheMetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8151C60C306B085D004082AD /* TheMetWidget.swift */; };
+		8151C61B306B08A9004082AD /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8151C5BB306B05C0004082AD /* Object.swift */; };
+		8151C620306B08AE004082AD /* TheMetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8151C5C0306B05D8004082AD /* TheMetService.swift */; };
+		8151C625306B08B3004082AD /* TheMetStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8151C5C8306B05F0004082AD /* TheMetStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		810845BB3069D63E00954F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810845A13069D63D00954F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810845A83069D63D00954F2E;
+			remoteInfo = "Assignment U6";
+		};
+		810845C63069D63E00954F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810845A13069D63D00954F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810845A83069D63D00954F2E;
+			remoteInfo = "Assignment U6";
+		};
+		8151C601306B0840004082AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 810845A13069D63D00954F2E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8151C5F1306B083F004082AD;
+			remoteInfo = TheMetWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8151C607306B0840004082AD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8151C603306B0840004082AD /* TheMetWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		810845A93069D63D00954F2E /* Assignment U6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Assignment U6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810845AC3069D63D00954F2E /* Assignment_U6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_U6App.swift; sourceTree = "<group>"; };
+		810845B03069D63E00954F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		810845B33069D63E00954F2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		810845B53069D63E00954F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810845BA3069D63E00954F2E /* Assignment U6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment U6Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810845BE3069D63E00954F2E /* Assignment_U6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_U6Tests.swift; sourceTree = "<group>"; };
+		810845C03069D63E00954F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810845C53069D63E00954F2E /* Assignment U6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Assignment U6UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810845C93069D63E00954F2E /* Assignment_U6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment_U6UITests.swift; sourceTree = "<group>"; };
+		810845CB3069D63E00954F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8151C5BB306B05C0004082AD /* Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Object.swift; sourceTree = "<group>"; };
+		8151C5C0306B05D8004082AD /* TheMetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMetService.swift; sourceTree = "<group>"; };
+		8151C5C8306B05F0004082AD /* TheMetStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMetStore.swift; sourceTree = "<group>"; };
+		8151C5D0306B0607004082AD /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		8151C5DB306B062C004082AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8151C5F2306B083F004082AD /* TheMetWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TheMetWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8151C5F4306B083F004082AD /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8151C5F6306B083F004082AD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8151C5FB306B083F004082AD /* TheMetWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = TheMetWidget.intentdefinition; sourceTree = "<group>"; };
+		8151C5FC306B0840004082AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8151C5FE306B0840004082AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8151C60C306B085D004082AD /* TheMetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMetWidget.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		810845A63069D63D00954F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810845B73069D63E00954F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810845C23069D63E00954F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8151C5EF306B083F004082AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8151C5F7306B083F004082AD /* SwiftUI.framework in Frameworks */,
+				8151C5F5306B083F004082AD /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		810845A03069D63D00954F2E = {
+			isa = PBXGroup;
+			children = (
+				810845AB3069D63D00954F2E /* Assignment U6 */,
+				810845BD3069D63E00954F2E /* Assignment U6Tests */,
+				810845C83069D63E00954F2E /* Assignment U6UITests */,
+				8151C5F8306B083F004082AD /* TheMetWidget */,
+				8151C5F3306B083F004082AD /* Frameworks */,
+				810845AA3069D63D00954F2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		810845AA3069D63D00954F2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				810845A93069D63D00954F2E /* Assignment U6.app */,
+				810845BA3069D63E00954F2E /* Assignment U6Tests.xctest */,
+				810845C53069D63E00954F2E /* Assignment U6UITests.xctest */,
+				8151C5F2306B083F004082AD /* TheMetWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		810845AB3069D63D00954F2E /* Assignment U6 */ = {
+			isa = PBXGroup;
+			children = (
+				810845AC3069D63D00954F2E /* Assignment_U6App.swift */,
+				8151C5BB306B05C0004082AD /* Object.swift */,
+				8151C5C0306B05D8004082AD /* TheMetService.swift */,
+				8151C5C8306B05F0004082AD /* TheMetStore.swift */,
+				8151C5D0306B0607004082AD /* URLImage.swift */,
+				8151C5DB306B062C004082AD /* ContentView.swift */,
+				810845B03069D63E00954F2E /* Assets.xcassets */,
+				810845B53069D63E00954F2E /* Info.plist */,
+				810845B23069D63E00954F2E /* Preview Content */,
+			);
+			path = "Assignment U6";
+			sourceTree = "<group>";
+		};
+		810845B23069D63E00954F2E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				810845B33069D63E00954F2E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		810845BD3069D63E00954F2E /* Assignment U6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				810845BE3069D63E00954F2E /* Assignment_U6Tests.swift */,
+				810845C03069D63E00954F2E /* Info.plist */,
+			);
+			path = "Assignment U6Tests";
+			sourceTree = "<group>";
+		};
+		810845C83069D63E00954F2E /* Assignment U6UITests */ = {
+			isa = PBXGroup;
+			children = (
+				810845C93069D63E00954F2E /* Assignment_U6UITests.swift */,
+				810845CB3069D63E00954F2E /* Info.plist */,
+			);
+			path = "Assignment U6UITests";
+			sourceTree = "<group>";
+		};
+		8151C5F3306B083F004082AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8151C5F4306B083F004082AD /* WidgetKit.framework */,
+				8151C5F6306B083F004082AD /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8151C5F8306B083F004082AD /* TheMetWidget */ = {
+			isa = PBXGroup;
+			children = (
+				8151C60C306B085D004082AD /* TheMetWidget.swift */,
+				8151C5FB306B083F004082AD /* TheMetWidget.intentdefinition */,
+				8151C5FC306B0840004082AD /* Assets.xcassets */,
+				8151C5FE306B0840004082AD /* Info.plist */,
+			);
+			path = TheMetWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		810845A83069D63D00954F2E /* Assignment U6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810845CE3069D63E00954F2E /* Build configuration list for PBXNativeTarget "Assignment U6" */;
+			buildPhases = (
+				810845A53069D63D00954F2E /* Sources */,
+				810845A63069D63D00954F2E /* Frameworks */,
+				810845A73069D63D00954F2E /* Resources */,
+				8151C607306B0840004082AD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8151C602306B0840004082AD /* PBXTargetDependency */,
+			);
+			name = "Assignment U6";
+			productName = "Assignment U6";
+			productReference = 810845A93069D63D00954F2E /* Assignment U6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		810845B93069D63E00954F2E /* Assignment U6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810845D13069D63E00954F2E /* Build configuration list for PBXNativeTarget "Assignment U6Tests" */;
+			buildPhases = (
+				810845B63069D63E00954F2E /* Sources */,
+				810845B73069D63E00954F2E /* Frameworks */,
+				810845B83069D63E00954F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810845BC3069D63E00954F2E /* PBXTargetDependency */,
+			);
+			name = "Assignment U6Tests";
+			productName = "Assignment U6Tests";
+			productReference = 810845BA3069D63E00954F2E /* Assignment U6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		810845C43069D63E00954F2E /* Assignment U6UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810845D43069D63E00954F2E /* Build configuration list for PBXNativeTarget "Assignment U6UITests" */;
+			buildPhases = (
+				810845C13069D63E00954F2E /* Sources */,
+				810845C23069D63E00954F2E /* Frameworks */,
+				810845C33069D63E00954F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810845C73069D63E00954F2E /* PBXTargetDependency */,
+			);
+			name = "Assignment U6UITests";
+			productName = "Assignment U6UITests";
+			productReference = 810845C53069D63E00954F2E /* Assignment U6UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8151C5F1306B083F004082AD /* TheMetWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8151C604306B0840004082AD /* Build configuration list for PBXNativeTarget "TheMetWidgetExtension" */;
+			buildPhases = (
+				8151C5EE306B083F004082AD /* Sources */,
+				8151C5EF306B083F004082AD /* Frameworks */,
+				8151C5F0306B083F004082AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheMetWidgetExtension;
+			productName = TheMetWidgetExtension;
+			productReference = 8151C5F2306B083F004082AD /* TheMetWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		810845A13069D63D00954F2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					810845A83069D63D00954F2E = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					810845B93069D63E00954F2E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 810845A83069D63D00954F2E;
+					};
+					810845C43069D63E00954F2E = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 810845A83069D63D00954F2E;
+					};
+					8151C5F1306B083F004082AD = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = 810845A43069D63D00954F2E /* Build configuration list for PBXProject "Assignment U6" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 810845A03069D63D00954F2E;
+			productRefGroup = 810845AA3069D63D00954F2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				810845A83069D63D00954F2E /* Assignment U6 */,
+				8151C5F1306B083F004082AD /* TheMetWidgetExtension */,
+				810845B93069D63E00954F2E /* Assignment U6Tests */,
+				810845C43069D63E00954F2E /* Assignment U6UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		810845A73069D63D00954F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810845B43069D63E00954F2E /* Preview Assets.xcassets in Resources */,
+				810845B13069D63E00954F2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810845B83069D63E00954F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810845C33069D63E00954F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8151C5F0306B083F004082AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8151C5FD306B0840004082AD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		810845A53069D63D00954F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8151C5C9306B05F0004082AD /* TheMetStore.swift in Sources */,
+				8151C5D1306B0607004082AD /* URLImage.swift in Sources */,
+				8151C5DC306B062C004082AD /* ContentView.swift in Sources */,
+				8151C5C1306B05D8004082AD /* TheMetService.swift in Sources */,
+				8151C600306B0840004082AD /* TheMetWidget.intentdefinition in Sources */,
+				8151C5BC306B05C0004082AD /* Object.swift in Sources */,
+				810845AD3069D63D00954F2E /* Assignment_U6App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810845B63069D63E00954F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810845BF3069D63E00954F2E /* Assignment_U6Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810845C13069D63E00954F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810845CA3069D63E00954F2E /* Assignment_U6UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8151C5EE306B083F004082AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8151C5FF306B0840004082AD /* TheMetWidget.intentdefinition in Sources */,
+				8151C61B306B08A9004082AD /* Object.swift in Sources */,
+				8151C620306B08AE004082AD /* TheMetService.swift in Sources */,
+				8151C625306B08B3004082AD /* TheMetStore.swift in Sources */,
+				8151C616306B086C004082AD /* TheMetWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		810845BC3069D63E00954F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810845A83069D63D00954F2E /* Assignment U6 */;
+			targetProxy = 810845BB3069D63E00954F2E /* PBXContainerItemProxy */;
+		};
+		810845C73069D63E00954F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810845A83069D63D00954F2E /* Assignment U6 */;
+			targetProxy = 810845C63069D63E00954F2E /* PBXContainerItemProxy */;
+		};
+		8151C602306B0840004082AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8151C5F1306B083F004082AD /* TheMetWidgetExtension */;
+			targetProxy = 8151C601306B0840004082AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		810845CC3069D63E00954F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		810845CD3069D63E00954F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		810845CF3069D63E00954F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Assignment U6/Assignment U6.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Assignment U6/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Assignment U6/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vittorio..Assignment-U6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		810845D03069D63E00954F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Assignment U6/Assignment U6.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Assignment U6/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Assignment U6/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vittorio..Assignment-U6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		810845D23069D63E00954F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assignment U6Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vittorio..Assignment-U6Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment U6.app/Assignment U6";
+			};
+			name = Debug;
+		};
+		810845D33069D63E00954F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assignment U6Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vittorio..Assignment-U6Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Assignment U6.app/Assignment U6";
+			};
+			name = Release;
+		};
+		810845D53069D63E00954F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assignment U6UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vittorio..Assignment-U6UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assignment U6";
+			};
+			name = Debug;
+		};
+		810845D63069D63E00954F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Assignment U6UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vittorio..Assignment-U6UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Assignment U6";
+			};
+			name = Release;
+		};
+		8151C605306B0840004082AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TheMetWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheMetWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vittorio..Assignment-U6.TheMetWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8151C606306B0840004082AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TheMetWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TheMetWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vittorio..Assignment-U6.TheMetWidget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		810845A43069D63D00954F2E /* Build configuration list for PBXProject "Assignment U6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810845CC3069D63E00954F2E /* Debug */,
+				810845CD3069D63E00954F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810845CE3069D63E00954F2E /* Build configuration list for PBXNativeTarget "Assignment U6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810845CF3069D63E00954F2E /* Debug */,
+				810845D03069D63E00954F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810845D13069D63E00954F2E /* Build configuration list for PBXNativeTarget "Assignment U6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810845D23069D63E00954F2E /* Debug */,
+				810845D33069D63E00954F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810845D43069D63E00954F2E /* Build configuration list for PBXNativeTarget "Assignment U6UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810845D53069D63E00954F2E /* Debug */,
+				810845D63069D63E00954F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8151C604306B0840004082AD /* Build configuration list for PBXNativeTarget "TheMetWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8151C605306B0840004082AD /* Debug */,
+				8151C606306B0840004082AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 810845A13069D63D00954F2E /* Project object */;
+}
